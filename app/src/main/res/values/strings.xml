@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navigation_view_header_title">MyApp</string>
+    <string name="app_name">My Application</string>
+    <string name="home">Home</string>
+    <string name="fragment_search">Search</string>
+    <string name="text_yes">Yes</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="text_info">Info</string>
+    <string name="text_ok">Ok</string>
+    <string name="text_error">Error</string>
+    <string name="text_success">Success</string>
+</resources>
+

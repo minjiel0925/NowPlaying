@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.AppTheme" />
+    <style name="AppTheme.OverlapSystemBar" parent="Base.AppTheme" />
+
+    <style name="Base.AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#96A1FF</item>
+        <item name="colorPrimaryDark">#4D68FF</item>
+        <item name="colorAccent">#000C4F</item>
+        <item name="md_color_button_text">@color/grey</item>
+
+        <!--For Android sdk versions 26+. -->
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-condensed-medium</item>
+        <!--Target Android sdk versions < 26 and > 14. -->
+        <item name="fontFamily">sans-serif-condensed-medium</item>
+        <!-- sets the style for the overflow button -->
+    </style>
+
+    <style name="Toolbar" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
